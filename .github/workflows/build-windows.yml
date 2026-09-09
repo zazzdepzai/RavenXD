@@ -37,6 +37,18 @@ jobs:
         run: |
           cd build
           windeployqt.exe Release\RavenXDLauncher.exe --release --no-translations
+
+      - name: Package into single self-extracting EXE
+        run: |
+          cd build\Release
+          7z a -sfx7z.sfx ..\..\RevanXDLauncher.exe *
+
+      - name: Upload single EXE artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: RevanXDLauncher-single-exe
+          path: RevanXDLauncher.exe
+
       - name: Upload EXE artifact
         uses: actions/upload-artifact@v4
         with:
