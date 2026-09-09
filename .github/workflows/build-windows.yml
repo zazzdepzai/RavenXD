@@ -36,8 +36,7 @@ jobs:
       - name: Deploy Qt DLLs (windeployqt)
         run: |
           cd build
-          & "${{ env.Qt6_DIR }}\bin\windeployqt.exe" Release\RavenXDLauncher.exe --release --no-translations
-
+          windeployqt.exe Release\RavenXDLauncher.exe --release --no-translations
       - name: Upload EXE artifact
         uses: actions/upload-artifact@v4
         with:
