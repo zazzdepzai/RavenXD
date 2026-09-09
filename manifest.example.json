@@ -1,0 +1,18 @@
+{
+  "mods": [
+    {
+      "name": "JEI (Just Enough Items)",
+      "fileName": "jei-1.20.1-forge.jar",
+      "url": "https://updates.example.com/ravenxd/mods/jei-1.20.1-forge.jar",
+      "version": "15.2.0",
+      "sha256": "put-real-sha256-hash-here"
+    },
+    {
+      "name": "Sodium",
+      "fileName": "sodium-fabric.jar",
+      "url": "https://updates.example.com/ravenxd/mods/sodium-fabric.jar",
+      "version": "0.5.8",
+      "sha256": "put-real-sha256-hash-here"
+    }
+  ]
+}
