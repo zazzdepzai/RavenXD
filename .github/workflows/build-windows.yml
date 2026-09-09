@@ -41,7 +41,7 @@ jobs:
       - name: Package into single self-extracting EXE
         run: |
           cd build\Release
-          7z a -sfx7z.sfx ..\..\RevanXDLauncher.exe *
+          7z a -sfx"C:\Program Files\7-Zip\7z.sfx" ..\..\RevanXDLauncher.exe *
 
       - name: Upload single EXE artifact
         uses: actions/upload-artifact@v4
