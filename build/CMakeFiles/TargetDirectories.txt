@@ -1,5 +1,0 @@
-/mnt/sdcard/Download/RavenXDLauncher/RavenXDLauncher/build/CMakeFiles/RavenXDLauncher.dir
-/mnt/sdcard/Download/RavenXDLauncher/RavenXDLauncher/build/CMakeFiles/edit_cache.dir
-/mnt/sdcard/Download/RavenXDLauncher/RavenXDLauncher/build/CMakeFiles/rebuild_cache.dir
-/mnt/sdcard/Download/RavenXDLauncher/RavenXDLauncher/build/CMakeFiles/RavenXDLauncher_autogen_timestamp_deps.dir
-/mnt/sdcard/Download/RavenXDLauncher/RavenXDLauncher/build/CMakeFiles/RavenXDLauncher_autogen.dir

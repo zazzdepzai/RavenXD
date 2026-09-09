@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_RavenXDLauncher_FILE /mnt/sdcard/Download/RavenXDLauncher/RavenXDLauncher/build/RavenXDLauncher)
-set(__QT_DEPLOY_TARGET_RavenXDLauncher_TYPE EXECUTABLE)
